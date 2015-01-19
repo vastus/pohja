@@ -1,0 +1,9 @@
+* {
+  color: #333;
+  line-height: 1.5;
+  font-family: times, serif;
+}
+
+.header-link {
+  text-decoration: none;
+}
