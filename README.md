@@ -7,7 +7,8 @@ Basis for an HTML and JS app for getting up and going quickly.
 
 # Deps
 
-  * npm ([node][nodejs.org])
+  * npm (ships w/ [node][nodejs.org])
+  * [gulp][gulpjs.com] (`$ npm install -g gulp`)
 
 # Usage
 
@@ -15,12 +16,24 @@ Not much to it.
 
 `$ npm install`
 
-`$ gulp js # compile js`
+Compile JS.
 
-`$ gulp watch # watch for changes`
+`$ gulp js`
 
-To run w/ a web server use `http-server` for instance.
+Watch for changes.
+
+`$ gulp watch`
+
+### To run w/ a web server use `http-server` for instance.
+
+Install.
+
+`$ npm install -g http-server`
+
+Run. (Serves `public/` implicitly)
+
+`$ http-server`
 
 [nodejs.org]: http://nodejs.org
-[direnv.net]: http://direnv.net/
+[gulpjs.com]: http://gulpjs.com
 
